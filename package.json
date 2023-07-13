@@ -1,9 +1,8 @@
 {
-  "name": "node-express-starter-2022",
-  "version": "0.3.3",
-  "description": "A node and express starter template for 2022",
-  "author": "Carter Adams <carteradams@protonmail.com>",
-  "license": "MIT-0",
+  "name": "NODE express API starter",
+  "version": "0.1",
+  "description": "A node and express starter template",
+  "author": "Hauke Brinkmann <haukebr@gmail.com>",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist --copy-files",
