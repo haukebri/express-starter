@@ -5,8 +5,10 @@ import morgan from 'morgan';
 import config from './config';
 import errorHandler from './middleware/errorHandler';
 import fourOhFour from './middleware/fourOhFour';
+import googleStrategy from './middleware/googleAuth';
 import root from './routes/root';
 import auth from './routes/auth';
+import passport from 'passport';
 
 const app = express()
 
@@ -18,6 +20,9 @@ app.use(cors({
 }))
 app.use(helmet())
 app.use(morgan('tiny'))
+
+// Google auth
+passport.use(googleStrategy)
 
 // Apply routes before error handling
 app.use('/', root)
