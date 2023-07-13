@@ -1,10 +1,8 @@
-# Node & Express API Starter For 2022 & 2023
+# Express starter
 
-_"A minimally opinionated node & express starter for 2022 & 2023"_
+Forked from <https://github.com/redcartel/node-express-starter-2022>
 
-This template is also used by my utility create-my-express on npm.
-
-## Usage:
+## Usage
 
 You should copy `.env.sample` to `.env` and then:
 
@@ -18,12 +16,8 @@ You should copy `.env.sample` to `.env` and then:
 
 `npm start` - Runs the server.
 
-## Default endpoints:
+## Default endpoints
 
 A `GET` request to `/` will respond with a description of the application.
 
 A `POST` request to `/` will echo any json sent in the request body.
-
-## Help out
-
-Feedback and contributions are very welcome.
